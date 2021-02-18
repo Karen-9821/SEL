@@ -8,7 +8,7 @@ header("location: INICIO.php");
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Formulario de inicio de sesión con PHP & MySQL</title>
+<title>Inicio de sesión</title>
 <!-- Custom Theme files -->
 <link href="../public/CSS/estilos.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- for-mobile-apps -->
@@ -23,7 +23,7 @@ header("location: INICIO.php");
 </head>
 <body>
 <!--header start here-->
-<h1>Bienvenido, Profesor.</h1>
+<h1>Bienvenido, Alumno.</h1>
 <div class="header agile">
 	<div class="wrap">
 		<div class="login-main wthree">

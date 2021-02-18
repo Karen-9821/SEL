@@ -8,7 +8,7 @@ header("location: INICIO.php");
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Formulario de inicio de sesión con PHP & MySQL</title>
+<title>REGISTRO ALUMNO</title>
 <!-- Custom Theme files -->
 <link href="../public/CSS/estilos.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- for-mobile-apps -->
@@ -23,16 +23,20 @@ header("location: INICIO.php");
 </head>
 <body>
 <!--header start here-->
-<h1>Bienvenido, Profesor.</h1>
+<h1>Registrate para acceder al sistema</h1>
 <div class="header agile">
 	<div class="wrap">
 		<div class="login-main wthree">
 			<div class="login">
-			<h3>Iniciar sesión</h3>
+			<h3>REGISTRO</h3>
 			<form action="#" method="post">
+				<input type="text" placeholder="Nombre" required="" name="nombre" required>
+				<input type="text" placeholder="Apellidos" required="" name="apellidos" required>
+				<input type="text" placeholder="Institucion Eduativa" required="" name="institucion" required>
+                <input type="text" placeholder="Matricula" required="" name="matricula" required>
 				<input type="text" placeholder="Usuario" required="" name="username" required>
 				<input type="password" placeholder="Contraseña" name="password" required>
-				<input name="submit" type="submit" value="Ingresar">
+				<input name="submit" type="submit" value="Registrar">
 			</form>
 			<div class="clear"> </div>
 				<span><?php echo $error; ?></span>
